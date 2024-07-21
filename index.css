@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+HU:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Playfair+Display:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400..700&display=swap');
+
+*{
+    font-family: 'rubik';
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+body {
+    height: 200rem;
+    overflow-x: hidden;
+}
+
+.bodybg{
+    background: linear-gradient(green , #161616);
+    height: 55rem;
+}
+#o{
+    display: none ;
+    padding-left: 4rem;
+    padding-right: 20px;
+}
+
+#cardskills{
+    overflow-wrap: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+#cardmenu{
+    height: 400px ;
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+.card0{
+    background-image: url(raja-bg.jpg);
+    background-size: cover;
+    border-radius: 20px;   
+    transition: 0.2s;
+}
+
+.card0:hover{
+    box-shadow: 0px 0px 3px 4px rgba(234, 234, 234, 0.1);
+    scale: 1.04;
+
+}
+
+
+.card1{
+    
+    background-image: url(raja-bg1.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    transition: 0.2s;
+
+}
+
+.card1:hover{
+    box-shadow: 0px 0px 3px 4px rgba(234, 234, 234, 0.1);
+    scale: 1.04;
+
+}
+
+.card2{
+    background-image: url(img/raja-bg6.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    transition: 0.2s;
+
+}
+
+.card2:hover{
+    box-shadow: 0px 0px 3px 4px rgba(234, 234, 234, 0.1);
+    scale: 1.04;
+
+}
+
+#background{
+    background-color: rgb(0, 0, 0, 0.8);
+    padding-top: 20px;
+    border-radius: 20px;
+    
+}
+
+#fontcard h5,#fontcard p{
+    color: lightgray;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+#fontcard1 h5,#fontcard1 p{
+    font-family: "Anton SC", sans-serif;
+    color: lightgray;
+
+}
+
+#fontcard2 h5,#fontcard2 p{
+    font-family: "Playfair Display", serif;
+    color: lightgray;
+
+}
+
+
+
+
+
+
+
+#profile-pic{
+    border-radius: 50px;
+}
+
+
+
+
+#input{
+    margin-top: 20px;
+    display: none;
+    transition: 0.3;
+}
+
+#input input{
+    border: none;
+    outline: none;
+    padding: 5px 20px;
+    border-radius: 20px;
+    margin: 0px 5px;
+    transition: 0.15s;
+    
+}
+
+#input input:focus{
+    scale: 1.1;
+    box-shadow: 1px 1px 1px 2px rgb(53, 53, 53,0.5);
+}
+
+
+
+#uploadbtn{
+    display: none;
+}
+
+label{
+    background: white;
+    color: rgb(48,164,68);
+    padding: 5px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+label:hover{
+    background-color: rgb(127, 181, 136);
+    color: rgb(226, 236, 226);
+    transition: 0.2s;
+    box-shadow: 1px 1px 1px 1px rgb(0, 0, 0, 0.3) ;
+}
+
+#createcard{
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+
+.body2bg{
+    background-color: #161616;
+    height: 80rem;
+}
+
+.title h1{
+    color: rgb(64, 114, 64);
+    font-size: 3rem;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+
+#wallpaper-cards{
+    width: 100%;
+    padding: 50px 0px;
+}
+
+#c{
+    max-width: 250px;
+    transition: 0.25s;
+}
+
+#c:hover{
+    scale: 1.06;
+    box-shadow:0px 0px 3px 4px rgba(151, 149, 149, 0.2) ;
+    cursor: pointer;
+
+}
+
+.wallpaperbg{
+    width: 250px;
+    height: 400px;
+    
+}
+
+#quote{
+    padding-top: 5rem;
+    text-align: center;
+}
+
+#quote h1{
+    font-size: 3rem;
+    font-family: "Noto Nastaliq Urdu", serif;
+    color: whitesmoke;
+}
+
+#quote h1 span{
+    font-family: "Noto Nastaliq Urdu", serif;
+    color: green;
+
+}
+
+
+.body3bg{
+    height: 60rem;
+    background:linear-gradient(#161616,green, #161616)
+}
+
+.head{
+    color: rgb(64, 114, 64);
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.head h1{
+    font-size: 3rem;
+}
+
+.head h3{
+    color: rgb(114, 113, 113);
+}
+
+#slide1{
+    width: 100%;
+    padding-left: 20%;
+
+}
+
+#carouselIndicators{
+    justify-content: center;
+    width: 75%;
+}
+
+.carousel-inner{
+    height: 29rem;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px 4px rgb(0, 0, 0 , 0.5);
+
+}
+
+.carousel-inner img{
+    height: 29rem;
+}
+
+.body4bg{
+    text-align: center;
+    background:#161616 ;
+}
+
+#btn-video{
+    width: 100%;
+    height: 100px;
+    background: green;
+    border: 0;
+    cursor: pointer;
+    font-size: 3rem;
+    transition: 0.2s;
+    outline: none;
+    transform: 0.2s;
+
+}
+#btn-video:hover{
+  color: whitesmoke;
+
+}
+
+#btn-video:focus{
+    background-color: rgb(3, 91, 3);
+}
+
+#video-box{
+    justify-content: center;
+    display: none;
+    outline: none;
+
+}
+
+#video{
+    width: 55rem;
+    outline: none;
+    border: 5px solid green;
+    border-radius: 10px;
+}
